@@ -1,15 +1,15 @@
-import React from "react"
+import React from "react";
 
-import { JumbotronContainer } from "../containers/jumbotron"
-import { FooterContainer } from "../containers/footer"
-import { FaqsContainer } from "../containers/faqs"
+import { JumbotronContainer } from "../containers/jumbotron";
+import { FooterContainer } from "../containers/footer";
+import { FaqsContainer } from "../containers/faqs";
 
 export default function Home() {
-    return(
+    return (
         <>
             <JumbotronContainer />
-            <FaqsContainer/>
+            <FaqsContainer />
             <FooterContainer />
         </>
-    )
+    );
 }
