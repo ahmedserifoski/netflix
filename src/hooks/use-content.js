@@ -1,9 +1,9 @@
 import { useState, useEffect, useContext } from "react";
-import { firebase, FirebaseContext } from "../context/firebase";
+import { FirebaseContext } from "../context/firebase";
 
 export default function useContent(target) {
     const [content, setContent] = useState([]);
-    const context = useContext(FirebaseContext);
+    const {firebase} = useContext(FirebaseContext);
 
     useEffect(() => {
         firebase
