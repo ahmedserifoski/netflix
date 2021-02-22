@@ -1,4 +1,5 @@
 export { default as Header } from "./header";
+export { default as Card } from "./card";
 export { default as Profiles } from "./profiles";
 export { default as Form } from "./form";
 export { default as Feature } from "./feature";
