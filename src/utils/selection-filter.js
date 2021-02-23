@@ -18,10 +18,6 @@ export default function selectionFilter({ series, films}) {
                 data: series.filter((item)=> item.genre === 'crime')
             },
             {
-                title: "Comedies",
-                data: series.filter((item)=> item.genre === 'comedies')
-            },
-            {
                 title: "Feel Good",
                 data: series.filter((item)=> item.genre === 'feel-good')
             },
