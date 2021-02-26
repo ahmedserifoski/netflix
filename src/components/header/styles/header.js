@@ -98,6 +98,7 @@ export const ButtonLink = styled(ReachRouterLink)`
     padding: 8px 17px;
     cursor: pointer;
     text-decoration: none;
+    box-sizing: border-box;
     &:hover {
         background: #f40612;
     }
@@ -200,12 +201,12 @@ export const FeatureCallOut = styled.h2`
 `;
 
 export const Logo = styled.img`
-    height: 36px;
-    width: 134px;
+    height: 76px;
+    width: 204px;
     margin-right: 40px;
     @media (min-width: 1449px) {
-        height: 45px;
-        width: 167px;
+        height: 95px;
+        width: 227px;
     }
 `;
 
